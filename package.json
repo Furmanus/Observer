@@ -1,0 +1,16 @@
+{
+  "name": "observer-lc",
+  "version": "1.0.0",
+  "description": "Observer pattern implementation",
+  "main": "scripts/observer.js",
+  "files": ["scripts/observer.js"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "observer"
+  ],
+  "author": "Łukasz Lach",
+  "license": "ISC"
+}
