@@ -1,18 +1,18 @@
-#Observer pattern implementation for JavaScript
+# Observer pattern implementation for JavaScript
 
-##Project page
+## Project page
+[GitHub](https://github.com/Furmanus/Observer)
 
-
-##Installation
+## Installation
 `npm install observer-lc`
 
-##How to use
+## How to use
 For enabling listening on events or notifying events, object has to extend Observer class (needs to have Observer
 methods in its prototype chain). Instance of `Observer` can call `listen(event, callback)` method to listen to specific
 event. After event is notified by other instance of `Observer`, callback function is called with `this` value set to
 instance of `Observer` which called `listen()` method. See examples below.
 
-##API
+## API
 - listen(event: `string`, callback: `function`, notifier: `Observer`) - enables listening on specific event. After
 event is notified, callback function is called with `this` value set to instance of `Observer` which called listen
 method. Optional parameter notifier enables listening on specific event only from specific object.
@@ -139,3 +139,6 @@ Expected output:
 ```
 c: 2
 ```
+## Author
+Łukasz Lach
+e-mail: mietek76(at)gmail.com
