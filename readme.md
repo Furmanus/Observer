@@ -66,7 +66,7 @@ b: 3
 c: 4
 
 ```
-With specified listener:
+With specified notifier:
 ```
 const Observer = require('observer-lc');
 let count = 0;
